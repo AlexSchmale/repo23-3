@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Mono:wght@100&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+.descuentos{
+    background-color: #1CD1B0;
+    padding-bottom:  10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.titulo{
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    padding-bottom: 26px;
+    padding-left: 28px;
+    padding-top: 28px;
+    position: sticky;
+    top: -1px;
+}
+main{
+    position: relative;
+}
+.tarjeta-1{
+    height: 529px;
+    width: 300px;
+    margin-left: 32px;
+    margin-top: 154px;
+    position: relative;
+}
+.fondo-heroe{
+    height: 193px;
+    width: 300px;
+    position: relative;
+}
+.corazon{
+    height: 26.5px;
+    width: 30px;
+    position: absolute;
+    top: 15.87px;
+    left: 21px;
+}
+.contenido-heroe{
+    background-color: #F3F3F3 ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 336px;
+    position: absolute;
+    z-index: -10;
+    width: 300px;
+}
+.foto-perfil-heroe{
+    position: absolute;
+    left: 90px;
+    top:128px;
+    right: 90px;
+}
+.foto-perfil-heroe img{
+    height: 118px;
+    width: 120px;
+    border-radius: 50%;
+}
+.contenido-heroe h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    position: relative;
+    left: 89px;
+    right: 89px;
+    top: 74px;
+}
+.contenido-heroe p{
+    position: absolute;
+    left: 16px;
+    top: 119px;
+    right: 17px;
+    text-align: justify;
+    width: 267px;
+    
+}
+.ver-mas{
+    background-color: #00669F;
+    height: 48.52px;
+    position: relative;
+    top: 220px;
+    left: 85px;
+    right: 86.22px;
+    width: 128.78px;
+}
+.ver-mas p{
+    font-size: 15px;
+    position: absolute;
+    top: 15px;
+    left: 37px;
+}
+/* tarjeta de Harley queen */
+.tarjeta-2{
+    position: absolute;
+    top: 0px;
+    left: 362px ;
+}
+/* Cambio el tiutlo de la tarjeta 2 */
+.contenido-heroe .titulo-harley{
+    text-transform: none;
+    font-size: 30px;
+    left: 65px;
+    top: 74px;
+}
+.tarjeta-3{
+    position: absolute;
+    top: 0px;
+    left: 692px;
+}
+/* Pié de página */
+footer{
+    background-color: #00669F;
+    color: #FFF9F9;
+    font-size: 16px;
+    height: 51px;
+    position: absolute;
+    top: 972px;
+    width: 100%;
+}
+footer p{
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-right: 16px;
+}
